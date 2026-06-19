@@ -39,8 +39,11 @@ This project simulates the core logic of a flight controller using states, event
 - SYSTEM_ERROR
 
 ## State Flow
+<<<<<<< HEAD
 
 ```text
+=======
+>>>>>>> a3b7c700fcaceaba0b325bd084a99359a8911a02
 IDLE
   ↓ START_SELF_TEST
 SELF_TEST
@@ -55,4 +58,8 @@ RETURN_HOME
   ↓ LAND_COMMAND
 LANDING
   ↓ LANDING_COMPLETE
+<<<<<<< HEAD
 IDLE
+=======
+IDLE
+>>>>>>> a3b7c700fcaceaba0b325bd084a99359a8911a02
